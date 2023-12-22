@@ -1,39 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
     background-color: #758190;
+    margin: 0;
+    padding: 0;
 }
 
 #tentacles {
-    width: 50px;
+    width: 150px; /* Adjust the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease-in-out;
+}
+
+#tentacles:hover {
+    transform: rotate(360deg);
 }
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #3498db;
     padding: 1%;
     align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(173, 216, 230, 0.8);
+    transition: box-shadow 0.3s ease;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #4d591b;
+    background-color: rgb(37, 96, 168);
+    border-radius: 10px;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 20px rgba(173, 216, 230, 0.8);
 }
 
 .stats-card {
     background-color: #a8b0bc;
-    border-radius: 7px;
-    padding: 1%;
+    border-radius: 10px;
+    padding: 2%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+    font-size: 36px;
+    color: #333;
 }
 
 #games-container {
@@ -45,21 +73,23 @@ body {
 .game-img {
     width: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
 }
 
 .game-card {
-    background-color: #FFFFFF;
-    padding: 1%;
+    background-color: #fff;
+    padding: 2%;
     margin: 1%;
     width: 300px;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.game-card:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+.game-card:hover, .game-img:hover {
+    transform: scale(1.05);
 }
 
 #button-container {
@@ -67,9 +97,19 @@ body {
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Cabin', sans-serif;
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #2980b9;
+}
+
