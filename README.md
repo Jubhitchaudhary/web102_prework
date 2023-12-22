@@ -1,29 +1,29 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - *Game Website*
 
-Submitted by: **Your Name Here**
+Submitted by: **Jubhit Chaudhary**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Game Website** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [x] The introduction section explains the background of the company and how many games remain unfunded.
+* [x] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [x] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
-
+* [x] List anything else that you can get done to improve the app functionality!
+Updated CSS a little bit for more visual appeal like for example zooming the cards and 360 tentacles when hovering over it.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+(https://www.loom.com/share/a48994793a0a4cc28aacf923a3badd69?sid=12917852-b27a-43eb-802b-61c27937dfea)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -33,12 +33,13 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
+It was quite interesting to start with the prework, I love the way instructions were given with adequate resources to learn from and its a great start to start with. I enjoyed this challenge and I hope its the start of something very interesting in this course
 Describe any challenges encountered while building the app.
-
+Challenge: Identifying and fixing errors or bugs in the code.
+Solution: Using browser developer tools, console logging, and systematic debugging techniques
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2023] [Jubhit Chaudhary]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
